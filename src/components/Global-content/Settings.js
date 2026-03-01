@@ -24,10 +24,10 @@ const Settings = (props) => {
   return (
     //is the isSettingsOpen is true add class 'active' else 'leave empty'
     <div className={`global-color ${isSettingsOpen ? 'active' : ''}`}>
-      {/* this onClick event set the setIsSettingsOpen to be true */}
-      <span className="setting-toggle" onClick={() => setIsSettingsOpen(true)}>
+      {/* Configuration icon - hidden */}
+      {/* <span className="setting-toggle" onClick={() => setIsSettingsOpen(true)}>
         <i className="las la-cog"></i>
-      </span>
+      </span> */}
       <div className="inner">
         {/* this onClick event set the setIsSettingsOpen to be false and closes the overlay */}
         <div className="overlay" onClick={() => setIsSettingsOpen(false)}></div>
