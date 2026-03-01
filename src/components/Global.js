@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Video from './Global-content/Video'
 import Pageloader from './Global-content/Pageloader'
 import Rsidemenu from './Global-content/Rsidemenu'
@@ -7,9 +7,14 @@ import Lsb from './Global-content/Lsb'
 import Settings from './Global-content/Settings'
 import MainWrapper from './MainWrapper'
 
+const DEFAULT_VIDEO = '/assets/Hero.mp4'
 
 export default function Global(){
-    const [currentVideo,setVideo]=useState('')
+    const [currentVideo,setVideo]=useState(DEFAULT_VIDEO)
+
+    useEffect(() => {
+      document.querySelector('body').style.backgroundColor = 'black'
+    }, [])
     
     function changeVideo(videos){
       setVideo(videos);

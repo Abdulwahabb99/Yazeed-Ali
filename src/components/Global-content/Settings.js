@@ -46,8 +46,7 @@ const Settings = (props) => {
             </div>
             <p>THREE DIMENSIONAL SHAPES</p>
             <ul className="themes">
-              <li><a href="#" onClick={() => {document.querySelector('body').style.backgroundColor='black';props.clickEvent('./assets/images/video1.mp4');setIsSettingsOpen(false);}}>Earth Lines Sphere</a></li>
-              <li><a href="#" onClick={() => {document.querySelector('body').style.backgroundColor='#1f1f1f';props.clickEvent('./assets/images/video2.mp4');setIsSettingsOpen(false);}}>3D Abstract Ball</a></li>
+              <li><a href="#" onClick={() => {document.querySelector('body').style.backgroundColor='black';props.clickEvent('/assets/Hero.mp4');setIsSettingsOpen(false);}}>Hero</a></li>
               <li><a href="#" onClick={() => {document.querySelector('body').style.backgroundColor='#1f1f1f';props.clickEvent('./assets/images/video3.mp4');setIsSettingsOpen(false);}}>Water Waves</a></li>
               <li><a href="#" onClick={() => {document.querySelector('body').style.backgroundColor='#1f1f1f';props.clickEvent('./assets/images/video4.mp4');setIsSettingsOpen(false);}}>Liquids Wavy</a></li>
               <li><a href="#" onClick={() => {document.querySelector('body').style.backgroundColor='black';props.clickEvent('./assets/images/video5.mp4');setIsSettingsOpen(false);}}>Simple Strings</a></li>
