@@ -678,7 +678,27 @@ main.drake-main {
 .left-sidebar > img.me {
   border-radius: 30px;
   display: block;
-  margin-bottom: 56px;
+  margin-bottom: 24px;
+}
+.left-sidebar .designation-wrap {
+  text-align: center;
+  margin-bottom: 28px;
+}
+.left-sidebar .designation-badge {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--primary_color);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 10px 24px;
+  border: 1px solid rgba(40, 233, 140, 0.35);
+  border-radius: 30px;
+  display: inline-block;
+  transition: 0.3s;
+}
+.left-sidebar .designation-badge:hover {
+  background: rgba(40, 233, 140, 0.08);
+  border-color: var(--primary_color);
 }
 .left-sidebar .sidebar-header {
   margin-bottom: 65px;
