@@ -14,7 +14,7 @@ export default function About() {
                     <h4 className="subtitle scroll-animation" data-aos='fade-up'>
                         <i className="lar la-user"></i> About
                     </h4>
-                    <h1 className="scroll-animation" data-aos='fade-up'>Every great design begin with<br/>
+                    <h1 className="scroll-animation" data-aos='fade-up'>Every great solution begins with<br/>
                         an even <span>better story</span></h1>
                 </div>
                 <p className="scroll-animation" data-aos='fade-up'>Senior Software Engineer & Technical Lead with over 6 years of experience in enterprise development, system integration, and PLG-stack monitoring. At KKESH, led DevOps automation that improved performance and reliability by 35% within one year, driving innovation and digital healthcare transformation. Passionate about building scalable solutions, mentoring teams, and delivering high-impact digital products.</p>

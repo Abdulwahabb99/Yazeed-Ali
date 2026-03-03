@@ -25,8 +25,8 @@ export default function Main() {
                 <Service/>
                 <Skills/>
                 <Portfolio/>
-                <Testimonials/>
-                <Clientlogos/>
+                {/* <Testimonials/> */}
+                {/* <Clientlogos/> */}
                 {/* <Pricing/> */}
                 {/* <Contact/> */}
                 
