@@ -1028,9 +1028,11 @@ body .body-overlay {
 .skills .skill:hover .skill-inner {
   border-color: var(--primary_color);
 }
-.skills .skill .skill-inner img {
+.skills .skill .skill-inner img,
+.skills .skill .skill-inner i {
   display: block;
   margin: auto auto 29px auto;
+  color: #ffffff;
 }
 .skills .skill .skill-inner h1 {
   font-size: 30px;
