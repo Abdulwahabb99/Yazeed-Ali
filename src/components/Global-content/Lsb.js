@@ -16,7 +16,7 @@ export default function Lsb() {
           Senior Software Engineer
         </span>
       </div>
-      <img className="me" src="./assets/images/me.jpg" alt="Me" />
+      <img className="me" src="./assets/images/yazeed-pic.jpeg" alt="Me" />
       <h2 className="email">hello@drake.design</h2>
       <h2 className="address">Base in Los Angeles, CA</h2>
       <p className="copyright">&copy; 2022 Drake. All Rights Reserved</p>
