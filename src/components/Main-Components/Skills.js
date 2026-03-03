@@ -23,11 +23,7 @@ export default function Skills() {
             <div className="col-md-3 scroll-animation" data-aos="fade-right">
               <div className="skill">
                 <div className="skill-inner">
-                  <img
-                    src="../assets/images/react.png"
-                    alt="React"
-                    style={{ width: 48, height: 48, objectFit: "contain" }}
-                  />
+                  <i className="lab la-react" style={{ fontSize: "48px" }}></i>
                   <h1 className="percent">90%</h1>
                 </div>
                 <p className="name">React.js</p>

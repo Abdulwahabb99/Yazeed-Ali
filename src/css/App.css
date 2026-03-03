@@ -1007,6 +1007,10 @@ body .body-overlay {
 }
 .skills .skill {
   margin-bottom: 50px;
+  min-height: 260px;
+  max-height: 260px;
+  display: flex;
+  flex-direction: column;
 }
 .skills .skill .skill-inner {
   border: 2px solid #565656;
@@ -1014,6 +1018,12 @@ body .body-overlay {
   padding: 54px 0 48px 0;
   margin-bottom: 20px;
   transition: .3s;
+  min-height: 210px;
+  max-height: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .skills .skill:hover .skill-inner {
   border-color: var(--primary_color);
