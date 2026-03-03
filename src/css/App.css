@@ -1079,6 +1079,18 @@ body .body-overlay {
 .portfolio-items .portfolio-item:hover h2 a {
   border-color: #ffffff;
 }
+.portfolio-items .portfolio-item .portfolio-desc {
+  font-size: 14px;
+  color: #999;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+.resume-area .resume-content .resume-timeline .item .resume-detail {
+  font-size: 13px;
+  color: #999;
+  margin-top: 8px;
+  line-height: 1.5;
+}
 
 
 

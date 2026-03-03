@@ -17,11 +17,7 @@ export default function About() {
                     <h1 className="scroll-animation" data-aos='fade-up'>Every great design begin with<br/>
                         an even <span>better story</span></h1>
                 </div>
-                <p className="scroll-animation" data-aos='fade-up'>Since beginning my journey as a freelance designer nearly 8 years ago, 
-                    I've done remote work for agencies, consulted for startups, and collaborated with 
-                    talented people to create digital products for both business and consumer use. 
-                    I'm quietly confident, naturally curious, and perpetually working on improving my 
-                    chopsone design problem at a time.</p>
+                <p className="scroll-animation" data-aos='fade-up'>Senior Software Engineer & Technical Lead with over 6 years of experience in enterprise development, system integration, and PLG-stack monitoring. At KKESH, led DevOps automation that improved performance and reliability by 35% within one year, driving innovation and digital healthcare transformation. Passionate about building scalable solutions, mentoring teams, and delivering high-impact digital products.</p>
             </div>
         </div>
     </section>

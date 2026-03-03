@@ -16,7 +16,7 @@ export default function Contact() {
                     </h4>
                     <h1 className="scroll-animation" data-aos='fade-up'>Let's Work <span>Together!</span></h1>
                 </div>
-                <h3 className="scroll-animation" data-aos='fade-up'>hello@drake.design</h3>
+                <h3 className="scroll-animation" data-aos='fade-up'>engyazeedali@gmail.com</h3>
                 <p id="required-msg">* Marked fields are required to fill.</p>
 
                 <form className="contact-form scroll-animation" data-aos='fade-up' method="POST" action="mailer.php">

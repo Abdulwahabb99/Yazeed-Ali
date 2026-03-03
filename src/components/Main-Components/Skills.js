@@ -21,55 +21,55 @@ export default function Skills() {
                         <div className="col-md-3 scroll-animation" data-aos='fade-right'>
                             <div className="skill">
                                 <div className="skill-inner">
-                                    <img src="../assets/images/figma.png" alt="Figma"/>
-                                    <h1 className="percent">92%</h1>
+                                    <img src="../assets/images/react.png" alt="React"/>
+                                    <h1 className="percent">90%</h1>
                                 </div>
-                                <p className="name">Figma</p>
+                                <p className="name">React.js</p>
                             </div>
                         </div>
                         <div className="col-md-3 scroll-animation" data-aos='fade-up'>
                             <div className="skill">
                                 <div className="skill-inner">
-                                    <img src="../assets/images/framer.png" alt="Framer"/>
-                                    <h1 className="percent">85%</h1>
+                                    <i className="lab la-microsoft" style={{fontSize: '48px'}}></i>
+                                    <h1 className="percent">92%</h1>
                                 </div>
-                                <p className="name">Framer</p>
+                                <p className="name">.NET Core</p>
                             </div>
                         </div>
                         <div className="col-md-3 scroll-animation" data-aos='fade-down'>
                             <div className="skill">
                                 <div className="skill-inner">
-                                    <img src="../assets/images/webflow.png" alt="Webflow"/>
-                                    <h1 className="percent">80%</h1>
+                                    <i className="lab la-node-js" style={{fontSize: '48px'}}></i>
+                                    <h1 className="percent">88%</h1>
                                 </div>
-                                <p className="name">Webflow</p>
+                                <p className="name">Node.js</p>
                             </div>
                         </div>
                         <div className="col-md-3 scroll-animation" data-aos='fade-left'>
                             <div className="skill">
                                 <div className="skill-inner">
-                                    <img src="../assets/images/react.png" alt="React"/>
+                                    <i className="lab la-js" style={{fontSize: '48px'}}></i>
                                     <h1 className="percent">90%</h1>
                                 </div>
-                                <p className="name">React</p>
+                                <p className="name">JavaScript/TS</p>
                             </div>
                         </div>
                         <div className="col-md-3 scroll-animation" data-aos='fade-right'>
                             <div className="skill">
                                 <div className="skill-inner">
-                                    <img src="../assets/images/wordpress.png" alt="WordPress"/>
-                                    <h1 className="percent">86%</h1>
+                                    <i className="lab la-docker" style={{fontSize: '48px'}}></i>
+                                    <h1 className="percent">85%</h1>
                                 </div>
-                                <p className="name">WordPress</p>
+                                <p className="name">Docker</p>
                             </div>
                         </div>
                         <div className="col-md-3 scroll-animation" data-aos='fade-up'>
                             <div className="skill">
                                 <div className="skill-inner">
-                                    <img src="../assets/images/laravel.png" alt="Laravel/PHP"/>
-                                    <h1 className="percent">70%</h1>
+                                    <i className="las la-database" style={{fontSize: '48px'}}></i>
+                                    <h1 className="percent">88%</h1>
                                 </div>
-                                <p className="name">Laravel/PHP</p>
+                                <p className="name">SQL/MongoDB</p>
                             </div>
                         </div>
                     </div>    

@@ -19,22 +19,22 @@ export default function Service() {
 
                 <div className="services-items">
                     <div className="service-item scroll-animation" data-aos='fade-up'>
-                        <i className="las la-bezier-curve"></i>
-                        <h2>Website Design</h2>
-                        <p>I created digital products with unique ideas use Figma & Framer</p>
-                        <span className="projects">24 Projects</span>
-                    </div>
-                    <div className="service-item scroll-animation" data-aos='fade-up'>
                         <i className="las la-code"></i>
-                        <h2>Development</h2>
-                        <p>I build website go live with Framer, Webflow or WordPress</p>
-                        <span className="projects">126 Projects</span>
+                        <h2>Enterprise Development</h2>
+                        <p>.NET Core, ASP.NET MVC, Web API, React.js — scalable applications with clean architecture and microservices</p>
+                        <span className="projects">Enterprise Apps</span>
                     </div>
                     <div className="service-item scroll-animation" data-aos='fade-up'>
-                        <i className="las la-bezier-curve"></i>
-                        <h2>SEO/Marketing</h2>
-                        <p>Increase the traffic for your website with SEO optimized</p>
-                        <span className="projects">8 Projects</span>
+                        <i className="las la-server"></i>
+                        <h2>DevOps & Infrastructure</h2>
+                        <p>Azure DevOps Pipelines, Docker, PLG Stack (Prometheus, Loki, Grafana), CI/CD automation and monitoring</p>
+                        <span className="projects">35% Reliability</span>
+                    </div>
+                    <div className="service-item scroll-animation" data-aos='fade-up'>
+                        <i className="las la-heartbeat"></i>
+                        <h2>Healthcare & FinTech</h2>
+                        <p>DICOM imaging, patient portals, SAMA-compliant solutions, secure APIs and system integration</p>
+                        <span className="projects">Digital Health</span>
                     </div>
                 </div>    
             </div>
